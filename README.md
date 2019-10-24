@@ -4,7 +4,7 @@
 Due to Scikit-Learn's GradientBoostingRegressor from version 0.20.1 to 0.21.2, the `SmartConsumer` class (see below) is broken. The `SmartConsumer` class should not be used, 
 do not input `s` for the question `WHAT WOULD YOU LIKE TO BE??`
 
-In order to use the `SmartConsumer`, please refer to relevant training code in this file, modify and run training code to make your own `SmartConsumer`. 
+In order to use the `SmartConsumer`, please refer to relevant training code in this project, modify and run training code to make your own `SmartConsumer`. 
 
 Apologies for the inconvenience. 
 
