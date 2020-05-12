@@ -5,6 +5,7 @@ this is the interface for game
 from collections import Counter
 from .constants import *
 from .simulation import *
+from .train_data import *
 
 print("Some games never finish.")
 
@@ -58,6 +59,10 @@ def play_game(s1 = SCOREBOARD, s2 = SCOREBOARD2):
     menu()
 
     c = None
+
+    choice = input("WOULD YOU LIKE TO TRAIN SMART CONSUMER FIRST?\ty n")
+    if choice.lower() == "y":
+        train_consumer()
 
     while True:
         choice = input("WHAT WOULD YOU LIKE TO BE??\nconsumer C spectator S quitter Q?\t[]\t")

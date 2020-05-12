@@ -1,12 +1,20 @@
 # PRO. CO. : A Game on Consumerism
 
+### UPDATE 5/12/20
+Coded a hack-around to the problem discussed in the previous update. The `SmartConsumer`
+class does work now.
+The question, `WOULD YOU LIKE TO TRAIN SMART CONSUMER FIRST?`, was inserted before
+the other questions. Respond with yes for this question.
+*This question only needs to be answered yes after each scikit-learn update.
+So you only need to respond with yes one time for every scikit-learn update.*
+
 ### UPDATE 10/24/19
-Due to Scikit-Learn's GradientBoostingRegressor from version 0.20.1 to 0.21.2, the `SmartConsumer` class (see below) is broken. The `SmartConsumer` class should not be used, 
+Due to Scikit-Learn's GradientBoostingRegressor from version 0.20.1 to 0.21.2, the `SmartConsumer` class (see below) is broken. The `SmartConsumer` class should not be used,
 do not input `s` for the question `WHAT WOULD YOU LIKE TO BE??`
 
-In order to use the `SmartConsumer`, please refer to relevant training code in this project, modify and run training code to make your own `SmartConsumer`. 
+In order to use the `SmartConsumer`, please refer to relevant training code in this project, modify and run training code to make your own `SmartConsumer`.
 
-Apologies for the inconvenience. 
+Apologies for the inconvenience.
 
 ## A Brief Description
 This game takes place in a world with a producer and a consumer. The producer

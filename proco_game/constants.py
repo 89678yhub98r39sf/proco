@@ -11,7 +11,6 @@ import pickle
 from collections import defaultdict
 
 
-
 # get path of data folder
 scriptDir = os.path.dirname(__file__) #<-- absolute dir the script is in
 relPath = "data"
@@ -38,7 +37,7 @@ RISK_EFFECTS =  round(RISK * 100, ROUNDING_DEPTH)
 
 # files collect all data during runs
 CON = os.path.join(dataPath, 'con')
-PROD = os.path.join(dataPath, 'con')
+PROD = os.path.join(dataPath, 'prod')
 
 # files are data samples used for training
 CONSUMER_TRAINING = os.path.join(dataPath, 'consumer_training')
